@@ -11,6 +11,6 @@ user.mood = "happy";
 user["hobby"] = "skydiving";
 user.premium = false;
 
-for (const parameter of Object.keys(user)) {
-  console.log(`${parameter}:${user[parameter]}`);
+for (const key of Object.keys(user)) {
+  console.log(`${key}:${user[key]}`);
 }
