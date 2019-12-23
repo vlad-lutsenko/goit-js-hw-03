@@ -2,7 +2,7 @@
 
 const countTotalSalary = function(employees) {
   let total = 0; //  тут без вводу змінної 'total' ніяк
-  for (const value of Object.values(employees)) {
+  for (const employer in employees) {
     total += value;
   }
   return total;
