@@ -1,9 +1,9 @@
 "use strict";
 
 const countTotalSalary = function(employees) {
-  let total = 0; //  тут без вводу змінної 'total' ніяк
+  let total = 0;
   for (const employer in employees) {
-    total += value;
+    total += employees[employer];
   }
   return total;
 };
